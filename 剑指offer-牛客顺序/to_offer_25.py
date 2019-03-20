@@ -30,7 +30,7 @@ class Solution:
 #         self.random = None
 class Solution1:
     # 返回 RandomListNode
-    def Clone(self, pHead):   # 方法同剑指offer--P187
+    def Clone(self, pHead):   # 分解法，方法同剑指offer--P187
         # write code here
         if pHead == None:
             return None
