@@ -10,15 +10,31 @@ class Solution:
             return ''
         s = list(s)
         s = self.Reverse(s)
+        pStart, pEnd = 0, 0
+        result = ''
+        listTemp = []
+        while pEnd < len(s):
+            if pEnd == len(s) - 1:
+                listTemp.append(self.Reverse(s[pStart:]))
+                break
+            if s[pStart] == ' ':
+                pStart += 1
+                pEnd += 1
+                listTemp.append(' ')
 
-
-
-
+            elif s[pEnd] == ' ':
+                listTemp.append(self.Reverse(s[pStart:pEnd]))
+                pStart = pEnd
+            else:
+                pEnd += 1
+        for i in listTemp:
+            result += ''.join(i)
+        return result
 
     def Reverse(self, s):
         start, end = 0, len(s)-1
         while start < end:
-            a[start], s[end] = s[end], s[start]
+            s[start], s[end] = s[end], s[start]
             start += 1
             end -= 1
         return s
