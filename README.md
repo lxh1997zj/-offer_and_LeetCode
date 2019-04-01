@@ -3,7 +3,7 @@
 ### [LeetCode](https://leetcode-cn.com/problemset/all/)会不定期的刷！！！
 ### 增加新的模块(面试/笔试)
 #### [极宇舟天笔试](https://github.com/lxh1997zj/-offer_and_LeetCode/tree/master/%E9%9D%A2%E8%AF%95%E7%AC%94%E8%AF%95/%E6%9E%81%E5%AE%87%E8%88%9F%E5%A4%A9(2019.3.28)) 结果：笔试挂了 时间：2019.3.28
-#### 珠海金智维信息科技有限公司笔试 结果: 放弃  时间: 2019.3.31 
+#### [珠海金智维信息科技有限公司笔试](https://github.com/lxh1997zj/-offer_and_LeetCode/tree/master/%E9%9D%A2%E8%AF%95%E7%AC%94%E8%AF%95/%E7%8F%A0%E6%B5%B7%E9%87%91%E6%99%BA%E7%BB%B4(2019.3.31)) 结果: 放弃  时间: 2019.3.31 
 ### 每天1~2道题，看看我能坚持多久！！！
 #### 2019.3.26 打卡
 #### 2019.3.27 打卡
