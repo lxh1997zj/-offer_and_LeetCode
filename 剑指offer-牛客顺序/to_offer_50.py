@@ -88,3 +88,50 @@ s = Solution2()
 print(s.duplicate([2, 3, 1, 0, 2, 5, 3], [1]))
 print(s.duplicate([2, 1, 3, 0, 4], [1]))
 print('-------------------------------------')
+
+
+'''
+拓展：不修改数组找出重复的数字。
+在一个长度为n+1的数组里的所有数字都在1~n的范围内，所以数组中至少有一个数字是重复的。请找出数组中任意一个重复的数字，
+但不能修改输入的数组，例如输入长度为8的数组[2,3,5,4,3,2,6,7]，那么对应的输出是重复的数字为2或3。
+'''
+
+# 方法一：利用哈希表，时间复杂度O(n)，空间复杂度O(n)
+# 方法二：二分查找的变形，如下，时间复杂度O(nlogn)，空间复杂度为O(1)
+
+class Solution3:
+    def duplicate(self, numbers):  # 剑指offer-P42
+        # write code here
+        if not numbers or len(numbers) <= 1:
+            return -1
+        start = 1
+        end = len(numbers) - 1
+        while start <= end:
+            middle = (end - start) // 2 + start
+            count = self.CountRange(numbers, len(numbers), start, middle)
+            if start == end:
+                if count > 0:
+                    return start
+                else:
+                    break
+            if count > middle - start + 1:
+                end = middle
+            else:
+                start = middle + 1
+        return -1
+
+    def CountRange(self, numbers, length, start, end):
+        """计算数组中的元素大于start,小于end的元素的个数"""
+        if not numbers:
+            return 0
+        count = 0
+        for i in range(length):
+            if numbers[i] >= start and numbers[i] <= end:
+                count += 1
+        return count
+
+
+# 测试:
+s1 = Solution3()
+print(s1.duplicate([2, 3, 5, 4, 3, 2, 6, 7]))
+print(s1.duplicate([2, 3, 5, 4, 3, 2, 6, 1]))
