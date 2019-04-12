@@ -13,7 +13,7 @@ date: 2019/4/10 17:34
 
 
 class Solution(object):
-    def twoSum(self, nums, target):
+    def twoSum(self, nums, target):  # 首尾递进查找做的，需要一次排序，时间复杂度是 O(nlogn), 再去查找原来位置的索引
         """
         :type nums: List[int]
         :type target: int
@@ -33,7 +33,28 @@ class Solution(object):
         return []
 
 
+class Solution1(object):
+    def twoSum(self, nums, target):  # 利用hashMap来判断是否已存在目标元素，若没有则插入当前元素
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+        hashMap = {}
+        for index, num in enumerate(nums):
+            another_num = target - num
+            if another_num in hashMap:
+                return [hashMap[another_num], index]
+            hashMap[num] = index
+        return None
+
+
 # 测试:
 s = Solution()
 print(s.twoSum([2,7, 15 ,8], 9))
 print(s.twoSum([3, 2, 4], 6))
+print('-----------------------------')
+s = Solution1()
+print(s.twoSum([2,7, 15 ,8], 9))
+print(s.twoSum([3, 2, 4], 6))
+print(s.twoSum([0, 2, 3, 4], 4))
