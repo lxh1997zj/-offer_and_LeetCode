@@ -1,0 +1,50 @@
+<test>
+	"main"
+	<a1   key1="google1" key2="company1"/>
+	<name1 key1="super1">"cctv1"</name1>
+	<int1>666
+		</int1>
+
+	<second>
+		<a2   key1="google2" key2="company2"/>
+			<name2 key1="super2">"cctv2"</name2>
+		<int2>777
+		</int2>
+
+		<third>
+		    "third-main"
+		    <a3   key1="google3" key2="company3"/>
+	        <name3 key1="super3">"cctv3"</name3>
+	        <int3>888
+		    </int3>
+
+		    <fourth>
+		        "fourth-main"
+		        <a4   key1="google4" key2="company4"/>
+	            <name4 key1="super4">"cctv4"</name4>
+	            <int4>999
+		        </int4>
+
+		        <fifth>
+		            <a5   key1="google5" key2="company5"/>
+	                <name5 key1="super5">"cctv5"</name5>
+	                <int5>101010
+		            </int5>
+
+		            <sisth>
+		                <a6   key1="google6" key2="company6"/>
+	            		<name6 key1="super6">"cctv6"</name6>
+	            		<int6>111111
+		        		</int6>
+		    		</sisth>
+		    		<a7   key1="google7" key2="company7"/>
+		        </fifth>
+
+		    </fourth>
+            <int7> "d" 
+		        </int7>
+		</third>
+        <name7 key1="super7">"cctv7"</name7>
+    </second>
+	<char1> "c" </char1>   
+</test>
