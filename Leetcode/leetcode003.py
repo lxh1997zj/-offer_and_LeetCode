@@ -22,6 +22,7 @@ class Solution(object):
                 i = max(m[s[j]], i)
             ans = max(ans, j-i+1)
             m[s[j]] = j + 1
+        # print(m)
         return ans
 
 
