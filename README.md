@@ -8,8 +8,8 @@
 #### [OK-Group笔试(朋友)](https://github.com/lxh1997zj/-offer_and_LeetCode/tree/master/%E9%9D%A2%E8%AF%95%E7%AC%94%E8%AF%95/OK-Group(2019.4.02)(%E6%9C%8B%E5%8F%8B%E7%9A%84)) 时间: 2019.4.02 
 #### [北京瑞仪盛天科技有限公司](https://github.com/lxh1997zj/-offer_and_LeetCode/tree/master/%E9%9D%A2%E8%AF%95%E7%AC%94%E8%AF%95/%E5%8D%97%E4%BA%AC%E7%91%9E%E4%BB%AA(2019.4.08)) 结果: 放弃  时间: 2019.4.08  (笔试过了，然后和我说不招应届生，真的尴尬，一开始也不直接说好，不过也好，公司环境很差，无感，网上很多再骂这家公司的)
 #### [帝江网络](https://github.com/lxh1997zj/-offer_and_LeetCode/tree/master/%E9%9D%A2%E8%AF%95%E7%AC%94%E8%AF%95/%E5%B8%9D%E6%B1%9F%E7%BD%91%E7%BB%9C(2019.4.10)) 结果: 笔试GG 时间: 2019.4.10     更新: 2019.4.16 面试-拿到offer
-#### [北京前沿驱动]() 时间: 2019.4.22    结果: 等通知
-#### [北京京融信达数据系统]() 时间: 2019.4.23    结果: 等通知 
+#### [北京前沿驱动](https://github.com/lxh1997zj/-offer_and_LeetCode/tree/master/%E9%9D%A2%E8%AF%95%E7%AC%94%E8%AF%95/%E5%8C%97%E4%BA%AC%E5%89%8D%E6%B2%BF%E9%A9%B1%E5%8A%A8(2019.4.22)) 时间: 2019.4.22    结果: 等通知
+#### [北京京融信达](https://github.com/lxh1997zj/-offer_and_LeetCode/tree/master/%E9%9D%A2%E8%AF%95%E7%AC%94%E8%AF%95/%E5%8C%97%E4%BA%AC%E4%BA%AC%E8%9E%8D%E4%BF%A1%E8%BE%BE(2019.4.23)) 时间: 2019.4.23    结果: 等通知 
 ---
 ### 每天1~2道题，看看我能坚持多久！！！
 #### 2019.3.26 打卡
@@ -41,3 +41,5 @@
 #### 2019.4.21 打卡
 #### 2019.4.22 未打卡 (面试ing)
 #### 2019.4.23 打卡
+
+---
